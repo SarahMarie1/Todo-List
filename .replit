@@ -1,0 +1,6 @@
+run = "Git init"
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "Git init"]
